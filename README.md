@@ -13,3 +13,12 @@
 
 ## Feature Extraction
 
+**Challenge Description:**
+
+Extracing or learning from raw features.
+
+**Categories:**
+
+  - A-Wristocracy: Deep Learning on Wrist-worn Sensing for Recognition of User Complex Activities(BSN2015)[[**paper**](https://ieeexplore.ieee.org/document/7299406)]
+
+    - [*deep learning(mlp-based)*] [*mean, variance*] [*fine-gained*] [*wrist-worn*] [*multi-model*]
