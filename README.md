@@ -1,16 +1,16 @@
 ## 0.Table of Contents
 
-  - [0.Table of Contents](#0.table-of-contents)
-  - [1.Reference Survey Paper](#1.reference-survey-paper)
-  - [2.Other Survey Paper](#2.other-survey-paper)
-  - [3.Challenges and Techniques](#3.challenges-and-techniques)
-     - [3.1.Feature Extraction](#3.1.feature-extraction)
-	    - [3.1.1.Temporal Feature Extraction](#3.1.1.temporal-feature-extraction)
-	    - [3.1.2.Multimodal Feature Extraction](#3.1.2.multimodal-feature-extraction)
-     - [3.2.Annotation Scarcity](#3.2.annotation-scarcity)
-	    - [3.2.1.Self-supervised learning](#3.2.1.self-supervised-learning)
-	    - [3.2.2.Semi-supervised learning](#3.2.2.semi-supervised-learning)
-  - [4.Datasets](#4.datasets)
+ - [0.Table of Contents](#0.table-of-contents)
+ - [1.Reference Survey Paper](#1.reference-survey-paper)
+ - [2.Other Survey Paper](#2.other-survey-paper)
+ - [3.Challenges and Techniques](#3.challenges-and-techniques)
+    - [3.1.Feature Extraction](#3.1.feature-extraction)
+	   - [3.1.1.Temporal Feature Extraction](#3.1.1.temporal-feature-extraction)
+	   - [3.1.2.Multimodal Feature Extraction](#3.1.2.multimodal-feature-extraction)
+    - [3.2.Annotation Scarcity](#3.2.annotation-scarcity)
+	   - [3.2.1.Self-supervised learning](#3.2.1.self-supervised-learning)
+	   - [3.2.2.Semi-supervised learning](#3.2.2.semi-supervised-learning)
+ - [4.Datasets](#4.datasets)
 
 ## 1.Reference Survey Paper
 :star: **Deep Learning for Sensor-based Human Activity Recognition: Overview, Challenges and Opportunities (ACM Computing Surveys)** [[**paper**](https://arxiv.org/pdf/2001.07416.pdf)]
