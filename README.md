@@ -1,31 +1,31 @@
-## 0.Table of Contents
+# Table of Contents
 
- - [0.Table of Contents](#0.table-of-contents)
- - [1.Reference Survey Paper](#1.reference-survey-paper)
- - [2.Other Survey Paper](#2.other-survey-paper)
- - [3.Challenges and Techniques](#3.challenges-and-techniques)
-    - [3.1.Feature Extraction](#3.1.feature-extraction)
-	   - [3.1.1.Temporal Feature Extraction](#3.1.1.temporal-feature-extraction)
-	   - [3.1.2.Multimodal Feature Extraction](#3.1.2.multimodal-feature-extraction)
-    - [3.2.Annotation Scarcity](#3.2.annotation-scarcity)
-	   - [3.2.1.Self-supervised learning](#3.2.1.self-supervised-learning)
-	   - [3.2.2.Semi-supervised learning](#3.2.2.semi-supervised-learning)
- - [4.Datasets](#4.datasets)
+ - [Table of Contents](#table-of-contents)
+ - [Reference Survey Paper](#reference-survey-paper)
+ - [Other Survey Paper](#other-survey-paper)
+ - [Challenges and Techniques](#challenges-and-techniques)
+    - [Feature Extraction](#feature-extraction)
+	   - [Temporal Feature Extraction](#temporal-feature-extraction)
+	   - [Multimodal Feature Extraction](#multimodal-feature-extraction)
+    - [Annotation Scarcity](#annotation-scarcity)
+	   - [Self-supervised learning](#self-supervised-learning)
+	   - [Semi-supervised learning](#semi-supervised-learning)
+ - [Datasets](#datasets)
 
-## 1.Reference Survey Paper
+# Reference Survey Paper
 :star: **Deep Learning for Sensor-based Human Activity Recognition: Overview, Challenges and Opportunities (ACM Computing Surveys)** [[**paper**](https://arxiv.org/pdf/2001.07416.pdf)]
 
 Some of papers and the main structure of this repository are inspired by this paper!!
 
-## 2.Other Survey Paper
+# Other Survey Paper
 
   - A Survey on Deep Learning for Human Activity Recognition(ACM Computing Surveys)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3472290)]
 
-## 3.Challenges and Techniques
+# Challenges and Techniques
 
-### 3.1.Feature Extraction
+### Feature Extraction
 
-#### 3.1.1.Temporal Feature Extraction 
+#### Temporal Feature Extraction 
 
   - A-Wristocracy: Deep Learning on Wrist-worn Sensing for Recognition of User Complex  Activities(BSN2015)[[**paper**](https://ieeexplore.ieee.org/document/7299406)]
 
@@ -95,7 +95,7 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*transformer-based(ConvTransformer)*] [*novel IMU fusion*]
 
-#### 3.1.2.Multimodal Feature Extraction
+#### Multimodal Feature Extraction
 
 ##### Feature Fusion
 
@@ -117,11 +117,11 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 ##### Classifier Ensemble
 
-[back to top](#0.table-of-contents)
+[back to top](#table-of-contents)
 
-### 3.2.Annotation Scarcity
+### Annotation Scarcity
 
-#### 3.2.1.Self-supervised learning
+#### Self-supervised learning
 
   - SelfHAR: Improving Human Activity Recognition through Self-training with Unlabeled Data(IMWUT2021)[[**paper**](https://arxiv.org/abs/2102.06073)] [[**code**](https://github.com/iantangc/SelfHAR)]
 
@@ -139,15 +139,15 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*self-supervised learning*] [*contrastive learning(novel: use nature transformations)*] [*backbone: 1D-CNN*]
 
-#### 3.2.2.Semi-supervised learning
+#### Semi-supervised learning
 
   - Deep-Learning-Enhanced Human Activity Recognition for Internet of Healthcare Things(JIOT2020)[[**paper**](https://ieeexplore.ieee.org/abstract/document/9055403/)]
 
 	 - [*semi-supervised learning(autolabeling based on RL)*] [*reinforcement learning(DQN)*] [*lstm*]
 
-[back to top](#0.table-of-contents)
+[back to top](#table-of-contents)
 
-## 4.Datasets
+# Datasets
 
 
 
