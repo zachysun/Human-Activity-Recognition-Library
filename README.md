@@ -12,29 +12,20 @@
 	    - [3.2.2.Semi-supervised learning](#3.2.2.semi-supervised-learning)
   - [4.Datasets](#4.datasets)
 
-
----
-
 ## 1.Reference Survey Paper
 :star: **Deep Learning for Sensor-based Human Activity Recognition: Overview, Challenges and Opportunities (ACM Computing Surveys)** [[**paper**](https://arxiv.org/pdf/2001.07416.pdf)]
 
 Some of papers and the main structure of this repository are inspired by this paper!!
 
----
-
 ## 2.Other Survey Paper
 
   - A Survey on Deep Learning for Human Activity Recognition(ACM Computing Surveys)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3472290)]
-
----
 
 ## 3.Challenges and Techniques
 
 ### 3.1.Feature Extraction
 
 #### 3.1.1.Temporal Feature Extraction 
-
----
 
   - A-Wristocracy: Deep Learning on Wrist-worn Sensing for Recognition of User Complex  Activities(BSN2015)[[**paper**](https://ieeexplore.ieee.org/document/7299406)]
 
@@ -50,8 +41,6 @@ Some of papers and the main structure of this repository are inspired by this pa
   - Sensing Fine-Grained Hand Activity with Smartwatches(CHI2019)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3290605.3300568)]
 
 	- [*deep learning(cnn-based)*]  [*time frequency spectral(FFT)*] [*fine-gained*]
-
----
 
   - Towards reading trackers in the wild: detecting reading activities by EOG glasses and deep neural networks(UbiComp17)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3123024.3129271)]
 
@@ -69,8 +58,6 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*end-to-end deep learning(cnn-lstm-based)*] [*spatio-temporal(EEG signals, EEG electrode map)*] 
 
----
-
   - Deep convolutional neural networks on multichannel time series for human activity recognition(AAAI2015)[[**paper**](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/viewFile/10710/11297)]
 
 	 - [*end-to-end deep learning(Temporal CNN)*]
@@ -82,8 +69,6 @@ Some of papers and the main structure of this repository are inspired by this pa
   - Prototype Similarity Learning for Activity Recognition(PAKDD2020)[[**paper**](https://link.springer.com/chapter/10.1007/978-3-030-47426-3_50)]
 
 	 - [*end-to-end deep learning(Temporal/1D CNN, Spatial CNN*] [*Tricks: Distance-Based Classification Module(based on prototypical network), Cross-Subject Training*] 
-
----
 
   - Convolutional Neural Networks for Human Activity Recognition using Multiple Accelerometer and Gyroscope Sensors(IJCNN2016)[[**paper**](https://ieeexplore.ieee.org/abstract/document/7727224)]
 
@@ -98,8 +83,6 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*dilated cnn, lstm*]
 
----
-
   - Activity Recognition Using Dual-ConvLSTM Extracting Local and Global Features for SHL Recognition Challenge(UbiComp2018)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3267305.3267533)]
 
 	 - [*dual-cnn-lstm(one small kernel size, one large)*] [*axis-based Fusion*]
@@ -108,19 +91,13 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*cnn-lstm*] [*acoustic data*] [*frequency transmit*]
 
----
-
   - IF-ConvTransformer: A Framework for Human Activity Recognition Using IMU Fusion and ConvTransformer(Ubicomp2022)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3534584)]
 
 	 - [*transformer-based(ConvTransformer)*] [*novel IMU fusion*]
 
----
-
 #### 3.1.2.Multimodal Feature Extraction
 
 ##### Feature Fusion
-
----
 
   - Multi-modal convolutional neural networks for activity recognition(TMC2015)[[**paper**](https://ieeexplore.ieee.org/abstract/document/7379657)]
 
@@ -134,17 +111,11 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*Early Fusion(1D vector)*] [*stack denoising autoencoder*]
 
----
-
   - Confidence-based Deep Multimodal Fusion for Activity Recognition(UbiComp18)[[**paper**](https://dl.acm.org/doi/10.1145/3267305.3267522)]
 
 	 - [*Sensor-based Fusion*] [*tricks: sensors confidence score*]
 
----
-
 ##### Classifier Ensemble
-
----
 
 [back to top](#0.table-of-contents)
 
@@ -168,15 +139,11 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*self-supervised learning*] [*contrastive learning(novel: use nature transformations)*] [*backbone: 1D-CNN*]
 
----
-
 #### 3.2.2.Semi-supervised learning
 
   - Deep-Learning-Enhanced Human Activity Recognition for Internet of Healthcare Things(JIOT2020)[[**paper**](https://ieeexplore.ieee.org/abstract/document/9055403/)]
 
 	 - [*semi-supervised learning(autolabeling based on RL)*] [*reinforcement learning(DQN)*] [*lstm*]
-
----
 
 [back to top](#0.table-of-contents)
 
