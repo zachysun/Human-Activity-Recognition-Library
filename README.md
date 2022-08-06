@@ -25,7 +25,7 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 ### Feature Extraction
 
-#### Temporal Feature Extraction 
+#### *Temporal Feature Extraction* 
 
   - A-Wristocracy: Deep Learning on Wrist-worn Sensing for Recognition of User Complex  Activities(BSN2015)[[**paper**](https://ieeexplore.ieee.org/document/7299406)]
 
@@ -95,9 +95,9 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*transformer-based(ConvTransformer)*] [*novel IMU fusion*]
 
-#### Multimodal Feature Extraction
+#### *Multimodal Feature Extraction*
 
-##### Feature Fusion
+***Feature Fusion:***
 
   - Multi-modal convolutional neural networks for activity recognition(TMC2015)[[**paper**](https://ieeexplore.ieee.org/abstract/document/7379657)]
 
@@ -115,13 +115,13 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*Sensor-based Fusion*] [*tricks: sensors confidence score*]
 
-##### Classifier Ensemble
+***Classifier Ensemble:***
 
 [back to top](#table-of-contents)
 
 ### Annotation Scarcity
 
-#### Self-supervised learning
+#### *Self-supervised learning*
 
   - SelfHAR: Improving Human Activity Recognition through Self-training with Unlabeled Data(IMWUT2021)[[**paper**](https://arxiv.org/abs/2102.06073)] [[**code**](https://github.com/iantangc/SelfHAR)]
 
@@ -139,7 +139,7 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*self-supervised learning*] [*contrastive learning(novel: use nature transformations)*] [*backbone: 1D-CNN*]
 
-#### Semi-supervised learning
+#### *Semi-supervised learning*
 
   - Deep-Learning-Enhanced Human Activity Recognition for Internet of Healthcare Things(JIOT2020)[[**paper**](https://ieeexplore.ieee.org/abstract/document/9055403/)]
 
