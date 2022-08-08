@@ -10,7 +10,12 @@
     - [Annotation Scarcity](#annotation-scarcity)
 	   - [Self-supervised learning](#self-supervised-learning)
 	   - [Semi-supervised learning](#semi-supervised-learning)
+	   - [Unsupervised learning](#unsupervised-learning)
+	- [Class Imbalanced](#class-imbalanced)
+	- [Distribution Discrepancy](#distribution-discrepancy)
+	- [User Features Privacy](#user-features-privacy)
  - [Datasets](#datasets)
+ - [Github Repositories](#github-repositories)
 
 # Reference Survey Paper
 :star: **Deep Learning for Sensor-based Human Activity Recognition: Overview, Challenges and Opportunities (ACM Computing Surveys)** [[**paper**](https://arxiv.org/pdf/2001.07416.pdf)]
@@ -27,6 +32,8 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 #### *Temporal Feature Extraction* 
 
+<u>***Handcraft:***</u>
+
   - A-Wristocracy: Deep Learning on Wrist-worn Sensing for Recognition of User Complex  Activities(BSN2015)[[**paper**](https://ieeexplore.ieee.org/document/7299406)]
 
     - [*deep learning(mlp-based)*] [*mean, variance*] [*fine-gained*] [*wrist-worn*] [*multi-sensors*]
@@ -41,6 +48,8 @@ Some of papers and the main structure of this repository are inspired by this pa
   - Sensing Fine-Grained Hand Activity with Smartwatches(CHI2019)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3290605.3300568)]
 
 	- [*deep learning(cnn-based)*]  [*time frequency spectral(FFT)*] [*fine-gained*]
+
+<u>***End to End(CNN,RNN-Based):***</u>
 
   - Towards reading trackers in the wild: detecting reading activities by EOG glasses and deep neural networks(UbiComp17)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3123024.3129271)]
 
@@ -74,7 +83,6 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*modality specific(tricks: zero padding,partial and full weight sharing)*]
 
-
   - Human activity recognition from accelerometer data using Convolutional Neural Network(BigComp2017)[[**paper**](https://ieeexplore.ieee.org/abstract/document/7881728)]
 
 	 - [*multi-scale 1D-CNN*]
@@ -91,13 +99,15 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*cnn-lstm*] [*acoustic data*] [*frequency transmit*]
 
+<u>***End to End(Transformer-Based):***</u>
+
   - IF-ConvTransformer: A Framework for Human Activity Recognition Using IMU Fusion and ConvTransformer(Ubicomp2022)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3534584)]
 
 	 - [*transformer-based(ConvTransformer)*] [*novel IMU fusion*]
 
 #### *Multimodal Feature Extraction*
 
-***Feature Fusion:***
+<u>***Feature Fusion:***</u>
 
   - Multi-modal convolutional neural networks for activity recognition(TMC2015)[[**paper**](https://ieeexplore.ieee.org/abstract/document/7379657)]
 
@@ -115,21 +125,22 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*Sensor-based Fusion*] [*tricks: sensors confidence score*]
 
-***Classifier Ensemble:***
+<u>***Classifier Ensemble:***</u>
 
-[back to top](#table-of-contents)
+| [back to top](#table-of-contents) |
+| --------------------------------: |
 
 ### Annotation Scarcity
 
 #### *Self-supervised learning*
 
-  - SelfHAR: Improving Human Activity Recognition through Self-training with Unlabeled Data(IMWUT2021)[[**paper**](https://arxiv.org/abs/2102.06073)] [[**code**](https://github.com/iantangc/SelfHAR)]
-
-	 - [*self-supervised learning*] [*teacher-student*] [*multi-task learning*]
-
   - Contrastive Self-supervised Learning for Sensor-based Human Activity Recognition(IJCB2021)[[**paper**](https://ieeexplore.ieee.org/abstract/document/9484410)]
 
 	 - [*self-supervised learning*] [*contrastive learning*] [*tricks: five random augmentation*]
+
+  - SelfHAR: Improving Human Activity Recognition through Self-training with Unlabeled Data(IMWUT2021)[[**paper**](https://arxiv.org/abs/2102.06073)] [[**code**](https://github.com/iantangc/SelfHAR)]
+
+	 - [*self-supervised learning*] [*teacher-student*] [*multi-task learning*]
 
   - Self-supervised Learning for Human Activity Recognition Using 700,000 Person-days of Wearable Data(Arxiv2022)[[**paper**](https://arxiv.org/abs/2206.02909)] [[**code**](https://github.com/OxWearables/ssl-wearables)]
 
@@ -145,9 +156,34 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*semi-supervised learning(autolabeling based on RL)*] [*reinforcement learning(DQN)*] [*lstm*]
 
-[back to top](#table-of-contents)
+#### *Unsupervised learning*
+
+  - Unsupervised Human Activity Recognition Using the Clustering Approach: A Review(Sensors2020)[[**paper**](https://europepmc.org/article/pmc/pmc7249206)]
+
+  - A survey on unsupervised learning for wearable sensor-based activity recognition(Applied Soft Computing2022)[[**paper**](https://www.sciencedirect.com/science/article/pii/S1568494622005191)]
+
+| [back to top](#table-of-contents) |
+| --------------------------------: |
+
+### Class Imbalanced
+
+
+| [back to top](#table-of-contents) |
+| --------------------------------: |
+
+### Distribution Discrepancy
+
+
+| [back to top](#table-of-contents) |
+| --------------------------------: |
+
+### User Features Privacy
+
+
+| [back to top](#table-of-contents) |
+| --------------------------------: |
 
 # Datasets
 
 
-
+# Github Repositories
