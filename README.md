@@ -32,7 +32,7 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 #### *Temporal Feature Extraction* 
 
-<u>***Handcraft:***</u>
+  - ***Handcraft:***
 
   - A-Wristocracy: Deep Learning on Wrist-worn Sensing for Recognition of User Complex  Activities(BSN, 2015)[[**paper**](https://ieeexplore.ieee.org/document/7299406)]
 
@@ -49,7 +49,7 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	- [*deep learning(cnn-based)*]  [*time frequency spectral(FFT)*] [*fine-gained*]
 
-<u>***End to End(CNN,RNN-Based):***</u>
+  - ***End to End(CNN,RNN-Based):***
 
   - Towards reading trackers in the wild: detecting reading activities by EOG glasses and deep neural networks(UbiComp, 2017)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3123024.3129271)]
 
@@ -99,7 +99,7 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*cnn-lstm*] [*acoustic data*] [*frequency transmit*]
 
-<u>***End to End(Transformer-Based):***</u>
+  - ***End to End(Transformer-Based):***
 
   - IF-ConvTransformer: A Framework for Human Activity Recognition Using IMU Fusion and ConvTransformer(Ubicomp, 2022)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3534584)]
 
@@ -107,7 +107,7 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 #### *Multimodal Feature Extraction*
 
-<u>***Feature Fusion:***</u>
+  - ***Feature Fusion:***
 
   - Multi-modal convolutional neural networks for activity recognition(TMC, 2015)[[**paper**](https://ieeexplore.ieee.org/abstract/document/7379657)]
 
@@ -125,7 +125,7 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*Sensor-based Fusion*] [*tricks: sensors confidence score*]
 
-<u>***Classifier Ensemble:***</u>
+  - ***Classifier Ensemble:***
 
 | [back to top](#table-of-contents) |
 | --------------------------------: |
@@ -152,9 +152,17 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 #### *Semi-supervised learning*
 
+  - Semi-Supervised Convolutional Neural Networks for Human Activity Recognition(BigData, 2017)[[**paper**](https://ieeexplore.ieee.org/abstract/document/8257967/)]
+
+	 - [*semi-supervised learning(CNN-Ladder)*]
+
+  - Semi-supervised Learning for Human Activity Recognition Using Adversarial Autoencoders(UbiComp/ISWC, 2019)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3341162.3344854)]
+
+	 - [*semi-supervised learning(Adversarial Autoencoders)*]
+
   - Deep-Learning-Enhanced Human Activity Recognition for Internet of Healthcare Things(JIOT, 2020)[[**paper**](https://ieeexplore.ieee.org/abstract/document/9055403/)]
 
-	 - [*semi-supervised learning(autolabeling based on RL)*] [*reinforcement learning(DQN)*] [*lstm*]
+	 - [*semi-supervised learning(Autolabeling)*] [*reinforcement learning(DQN)*] [*backbone: LSTM*]
 
 #### *Unsupervised learning*
 
