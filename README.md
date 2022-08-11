@@ -13,6 +13,7 @@
 	   - [Unsupervised learning](#unsupervised-learning)
 	- [Class Imbalanced](#class-imbalanced)
 	- [Distribution Discrepancy](#distribution-discrepancy)
+	   - [Cross person](#cross--person)
 	- [User Features Privacy](#user-features-privacy)
  - [Datasets](#datasets)
  - [Github Repositories](#github-repositories)
@@ -168,7 +169,15 @@ Some of papers and the main structure of this repository are inspired by this pa
 
   - Unsupervised Human Activity Recognition Using the Clustering Approach: A Review(Sensors, 2020)[[**paper**](https://europepmc.org/article/pmc/pmc7249206)]
 
+	 - [*Survey*]
+
   - A survey on unsupervised learning for wearable sensor-based activity recognition(Applied Soft Computing, 2022)[[**paper**](https://www.sciencedirect.com/science/article/pii/S1568494622005191)]
+
+	 - [*Survey*]
+
+- Towards deep clustering of human activities from wearables(ISWC, 2020)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3410531.3414312)]
+
+	 - [*Deep clustering*] [*for pretrain: multi-task autoencoder*] [*for clustering: single layer network, cluster assignment hardening*]
 
 | [back to top](#table-of-contents) |
 | --------------------------------: |
@@ -181,6 +190,11 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 ### Distribution Discrepancy
 
+#### *Cross  person*
+
+- Latent Independent Excitation for Generalizable Sensor-based Cross-Person Activity Recognition(AAAI, 2021)[[**paper**](https://ojs.aaai.org/index.php/AAAI/article/view/17416)]
+
+	 - [*transfer learning*]
 
 | [back to top](#table-of-contents) |
 | --------------------------------: |
@@ -193,6 +207,13 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 # Datasets
 
+  - Opportunity[[link](https://archive.ics.uci.edu/ml/datasets/opportunity+activity+recognition#:~:text=Data%20Set%20Information%3A-,The%20OPPORTUNITY%20Dataset%20for%20Human%20Activity%20Recognition%20from%20Wearable%2C%20Object,%2C%20feature%20extraction%2C%20etc)]
+
+  - UCI HAR[[link](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)]
+
+  - MotionSense[[link](https://github.com/mmalekzadeh/motion-sense)]
+
+  - PAMPA2[[link](https://archive.ics.uci.edu/ml/datasets/pamap2+physical+activity+monitoring)]
 
 # Github Repositories
 
