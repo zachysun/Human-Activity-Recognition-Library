@@ -196,7 +196,8 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 # Github Repositories
 
- - Awesome Human Activity Recognition(own by haoranD)[[link](https://github.com/haoranD/Awesome-Human-Activity-Recognition)]
- - Awesome Human Activity Recognition(own by jie-su)[[link](https://github.com/Jie-su/Awesome_Human_Activity_Recognition)]
- - LSTM Human Activity Recognition(own by guillaume-chevalier)[[link](https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition)]
+ - Awesome-Human-Activity-Recognition(own by haoranD)[[link](https://github.com/haoranD/Awesome-Human-Activity-Recognition)]
+ - Awesome_Human_Activity_Recognition(own by jie-su)[[link](https://github.com/Jie-su/Awesome_Human_Activity_Recognition)]
+ - LSTM-Human-Activity-Recognition(own by guillaume-chevalier)[[link](https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition)]
  - activityrecognition(own by jindongwang)[[link](https://github.com/jindongwang/activityrecognition)]
+ - Human-Activity-Recognition-using-CNN(own by aqibsaeed)[[link](https://github.com/aqibsaeed/Human-Activity-Recognition-using-CNN)]
