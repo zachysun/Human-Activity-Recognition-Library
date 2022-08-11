@@ -212,6 +212,9 @@ Some of papers and the main structure of this repository are inspired by this pa
   - MotionSense[[link](https://github.com/mmalekzadeh/motion-sense)]
   - PAMPA2[[link](https://archive.ics.uci.edu/ml/datasets/pamap2+physical+activity+monitoring)]
 
+| [back to top](#table-of-contents) |
+| --------------------------------: |
+
 # Github Repositories
 
  - Awesome-Human-Activity-Recognition(own by haoranD)[[link](https://github.com/haoranD/Awesome-Human-Activity-Recognition)]
@@ -219,3 +222,6 @@ Some of papers and the main structure of this repository are inspired by this pa
  - LSTM-Human-Activity-Recognition(own by guillaume-chevalier)[[link](https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition)]
  - activityrecognition(own by jindongwang)[[link](https://github.com/jindongwang/activityrecognition)]
  - Human-Activity-Recognition-using-CNN(own by aqibsaeed)[[link](https://github.com/aqibsaeed/Human-Activity-Recognition-using-CNN)]
+
+| [back to top](#table-of-contents) |
+| --------------------------------: |
