@@ -12,9 +12,9 @@
 	   - [Semi-supervised learning](#semi-supervised-learning)
 	   - [Unsupervised learning](#unsupervised-learning)
 	- [Class Imbalanced](#class-imbalanced)
-	- [Distribution Discrepancy](#distribution-discrepancy)
-	   - [Cross person](#cross--person)
-	   - [Cross multi-discrepancy](#cross-multi-discrepancy)
+	- [Transfer Learning](#transfer-learning)
+	   - [Distribution Discrepancy](#distribution-discrepancy)
+	   - [Meta Learning](#meta-learning)
 	- [User Features Privacy](#user-features-privacy)
 	- [Data Augmentation](#data-augmentation)
  - [Datasets](#datasets)
@@ -112,6 +112,10 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*transformer-based(ConvTransformer)*] [*novel IMU fusion*]
 
+  - Transformer Networks for Data Augmentation of Human Physical Activity Recognition(Arxiv, 2021)[[**paper**](https://arxiv.org/abs/2109.01081)] [[**code**](https://github.com/sandeep-189/data-augmentation)]
+
+	 - [*backbone: Transformer-based*] [*augmentation tricks: GAN-based*] 
+
 #### *Multimodal Feature Extraction*
 
   - ***Feature Fusion:***
@@ -197,9 +201,11 @@ Some of papers and the main structure of this repository are inspired by this pa
 | [back to top](#table-of-contents) |
 | --------------------------------: |
 
-### Distribution Discrepancy
+### Transfer Learning
 
-#### *Cross  person*
+#### *Distribution Discrepancy*
+
+  - ***Cross person:***
 
   - Latent Independent Excitation for Generalizable Sensor-based Cross-Person Activity Recognition(AAAI, 2021)[[**paper**](https://ojs.aaai.org/index.php/AAAI/article/view/17416)]
 
@@ -209,11 +215,17 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*Unsupervised domain adaptation*] [*Transfer Learning*]
 
-#### *Cross multi-discrepancy*
+  - ***Cross multi-discrepancy:***
 
-  - Learning Disentangled Behaviour Patterns for Wearable-based Human Activity Recognition(Ubicomp, 2022)[[**paper**](Ubicomp, 2022)] [[**code**](https://github.com/Jie-su/BPD)]
+  - Learning Disentangled Behaviour Patterns for Wearable-based Human Activity Recognition(Ubicomp, 2022)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3517252)] [[**code**](https://github.com/Jie-su/BPD)]
 
 	 - [*Disentangle Learning*]
+
+#### *Meta Learning*
+
+  - RF-Net: A Unified Meta-Learning Framework for RF-enabled One-Shot Human Activity Recognition(Sensys, 2020)[[**paper**](https://arxiv.org/abs/2111.04566)] [[**code**](https://github.com/di0002ya/rfnet)]
+
+	 - [*device-free HAR(RF signal)*] [*Transfer Learning*] [*Meta Learning(One-shot learning)*]
 
 | [back to top](#table-of-contents) |
 | --------------------------------: |
