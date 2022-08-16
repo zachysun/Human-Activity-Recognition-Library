@@ -14,7 +14,9 @@
 	- [Class Imbalanced](#class-imbalanced)
 	- [Distribution Discrepancy](#distribution-discrepancy)
 	   - [Cross person](#cross--person)
+	   - [Cross multi-discrepancy](#cross-multi-discrepancy)
 	- [User Features Privacy](#user-features-privacy)
+	- [Data Augmentation](#data-augmentation)
  - [Datasets](#datasets)
  - [Github Repositories](#github-repositories)
 
@@ -100,6 +102,10 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*cnn-lstm*] [*acoustic data*] [*frequency transmit*]
 
+  - Tutorial on Deep Learning for Human Activity Recognition(ISWC, 2021)[[**paper**](https://arxiv.org/abs/2110.06663)] [[**code**](https://github.com/mariusbock/dl-for-har)]
+
+	 - [*primary backbone: DeepConvLSTM*]
+
   - ***End to End(Transformer-Based):***
 
   - IF-ConvTransformer: A Framework for Human Activity Recognition Using IMU Fusion and ConvTransformer(Ubicomp, 2022)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3534584)]
@@ -175,15 +181,18 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*Survey*]
 
-- Towards deep clustering of human activities from wearables(ISWC, 2020)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3410531.3414312)]
+  - Towards deep clustering of human activities from wearables(ISWC, 2020)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3410531.3414312)]
 
-	 - [*Deep clustering*] [*for pretrain: multi-task autoencoder*] [*for clustering: single layer network, cluster assignment hardening*]
+	 - [*Deep Clustering*] [*for pretrain: multi-task autoencoder*] [*for clustering: single layer network, cluster assignment hardening*]
+
+  - SALIENCE: An Unsupervised User Adaptation Model for Multiple Wearable Sensors Based Human Activity Recognition(TMC, 2022)[[**paper**](https://ieeexplore.ieee.org/abstract/document/9765741)] [[**code**](https://github.com/wdkhuans/SALIENCE)]
+
+	 - [*Unsupervised domain adaptation*] [*Transfer Learning*]
 
 | [back to top](#table-of-contents) |
 | --------------------------------: |
 
 ### Class Imbalanced
-
 
 | [back to top](#table-of-contents) |
 | --------------------------------: |
@@ -192,9 +201,19 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 #### *Cross  person*
 
-- Latent Independent Excitation for Generalizable Sensor-based Cross-Person Activity Recognition(AAAI, 2021)[[**paper**](https://ojs.aaai.org/index.php/AAAI/article/view/17416)]
+  - Latent Independent Excitation for Generalizable Sensor-based Cross-Person Activity Recognition(AAAI, 2021)[[**paper**](https://ojs.aaai.org/index.php/AAAI/article/view/17416)]
 
-	 - [*transfer learning*]
+	 - [*Transfer Learning*]
+
+  - SALIENCE: An Unsupervised User Adaptation Model for Multiple Wearable Sensors Based Human Activity Recognition(TMC, 2022)[[**paper**](https://ieeexplore.ieee.org/abstract/document/9765741)] [[**code**](https://github.com/wdkhuans/SALIENCE)]
+
+	 - [*Unsupervised domain adaptation*] [*Transfer Learning*]
+
+#### *Cross multi-discrepancy*
+
+  - Learning Disentangled Behaviour Patterns for Wearable-based Human Activity Recognition(Ubicomp, 2022)[[**paper**](Ubicomp, 2022)] [[**code**](https://github.com/Jie-su/BPD)]
+
+	 - [*Disentangle Learning*]
 
 | [back to top](#table-of-contents) |
 | --------------------------------: |
@@ -204,6 +223,12 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 | [back to top](#table-of-contents) |
 | --------------------------------: |
+
+### Data Augmentation
+
+  - Transformer Networks for Data Augmentation of Human Physical Activity Recognition(Arxiv, 2021)[[**paper**](https://arxiv.org/abs/2109.01081)] [[**code**](https://github.com/sandeep-189/data-augmentation)]
+
+	 - [*backbone: Transformer-based*] [*augmentation tricks: GAN-based*] 
 
 # Datasets
 
