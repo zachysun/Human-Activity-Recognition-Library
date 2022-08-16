@@ -7,14 +7,14 @@
     - [Feature Extraction](#feature-extraction)
 	   - [Temporal Feature Extraction](#temporal-feature-extraction)
 	   - [Multimodal Feature Extraction](#multimodal-feature-extraction)
-    - [Annotation Scarcity](#annotation-scarcity)
+    - [Weakly Annotation](#weakly-annotation)
 	   - [Self-supervised learning](#self-supervised-learning)
 	   - [Semi-supervised learning](#semi-supervised-learning)
 	   - [Unsupervised learning](#unsupervised-learning)
 	- [Class Imbalanced](#class-imbalanced)
 	- [Transfer Learning](#transfer-learning)
 	   - [Distribution Discrepancy](#distribution-discrepancy)
-	   - [Meta Learning](#meta-learning)
+	   - [Zero/One/Few-Shot Learning](#zero/one/few-shot-learning)
 	- [User Features Privacy](#user-features-privacy)
 	- [Data Augmentation](#data-augmentation)
  - [Datasets](#datasets)
@@ -141,7 +141,7 @@ Some of papers and the main structure of this repository are inspired by this pa
 | [back to top](#table-of-contents) |
 | --------------------------------: |
 
-### Annotation Scarcity
+### Weakly Annotation 
 
 #### *Self-supervised learning*
 
@@ -221,11 +221,15 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*Disentangle Learning*]
 
-#### *Meta Learning*
+#### *Zero/One/Few-Shot Learning*
+
+  - Few-Shot Human Activity Recognition on Noisy Wearable Sensor Data(DASFAA, 2020)[[**paper**](https://link.springer.com/chapter/10.1007/978-3-030-59416-9_4)]
+
+	 - [*Multiple Instance Learning*] [*Weakly supervised*] [*Prototype Networks*]
 
   - RF-Net: A Unified Meta-Learning Framework for RF-enabled One-Shot Human Activity Recognition(Sensys, 2020)[[**paper**](https://arxiv.org/abs/2111.04566)] [[**code**](https://github.com/di0002ya/rfnet)]
 
-	 - [*device-free HAR(RF signal)*] [*Transfer Learning*] [*Meta Learning(One-shot learning)*]
+	 - [*device-free HAR(RF signal)*] [*Transfer Learning*] [*Meta Learning*] 
 
 | [back to top](#table-of-contents) |
 | --------------------------------: |
