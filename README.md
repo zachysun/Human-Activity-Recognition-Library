@@ -29,6 +29,10 @@ Some of papers and the main structure of this repository are inspired by this pa
 
   - A Survey on Deep Learning for Human Activity Recognition(ACM Computing Surveys, 2022)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3472290)]
 
+  - Multi-sensor information fusion based on machine learning for real applications in human activity recognition: State-of-the-art and research challenges(Information Fusion, 2022)[[**paper**](https://www.sciencedirect.com/science/article/abs/pii/S1566253521002311)]
+
+  - Deep Learning in Human Activity Recognition with Wearable Sensors: A Review on Advances(Sensors, 2022)[[**paper**](https://www.mdpi.com/1424-8220/22/4/1476)]
+
 # Challenges and Techniques
 
 ### Feature Extraction
@@ -51,6 +55,10 @@ Some of papers and the main structure of this repository are inspired by this pa
   - Sensing Fine-Grained Hand Activity with Smartwatches(CHI, 2019)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3290605.3300568)]
 
 	- [*deep learning(cnn-based)*]  [*time frequency spectral(FFT)*] [*fine-gained*]
+
+  - ***Autoencoder-Based:***
+
+
 
   - ***End to End(CNN,RNN-Based):***
 
@@ -102,7 +110,7 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*cnn-lstm*] [*acoustic data*] [*frequency transmit*]
 
-  - Tutorial on Deep Learning for Human Activity Recognition(ISWC, 2021)[[**paper**](https://arxiv.org/abs/2110.06663)] [[**code**](https://github.com/mariusbock/dl-for-har)]
+  - Improving Deep Learning for HAR with shallow LSTMs (ISWC, 2021)[[**paper**](https://dl.acm.org/doi/10.1145/3460421.3480419)] [[**code**](https://github.com/mariusbock/dl-for-har)]
 
 	 - [*primary backbone: DeepConvLSTM*]
 
@@ -189,10 +197,6 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*Deep Clustering*] [*for pretrain: multi-task autoencoder*] [*for clustering: single layer network, cluster assignment hardening*]
 
-  - SALIENCE: An Unsupervised User Adaptation Model for Multiple Wearable Sensors Based Human Activity Recognition(TMC, 2022)[[**paper**](https://ieeexplore.ieee.org/abstract/document/9765741)] [[**code**](https://github.com/wdkhuans/SALIENCE)]
-
-	 - [*Unsupervised domain adaptation*] [*Transfer Learning*]
-
 | [back to top](#table-of-contents) |
 | --------------------------------: |
 
@@ -220,6 +224,12 @@ Some of papers and the main structure of this repository are inspired by this pa
   - Learning Disentangled Behaviour Patterns for Wearable-based Human Activity Recognition(Ubicomp, 2022)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3517252)] [[**code**](https://github.com/Jie-su/BPD)]
 
 	 - [*Disentangle Learning*]
+
+  - ***Others:***
+
+  - CALDA: Improving Multi-Source Time Series Domain Adaptation with Contrastive Adversarial Learning(TPAMI, 2021)[[**paper**](https://arxiv.org/abs/2109.14778)] [[**code**](https://github.com/floft/calda)]
+
+	 - [*Cross HAR data and other domain data*] [*Unsupervised domain adaptation*] [*Contrastive Learning*] [*adversarial learning*]
 
 #### *Zero/One/Few-Shot Learning*
 
