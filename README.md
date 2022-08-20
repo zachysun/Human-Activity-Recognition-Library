@@ -17,6 +17,7 @@
 	   - [Zero/One/Few-Shot Learning](#zeroonefew-shot-learning)
 	- [User Features Privacy](#user-features-privacy)
 	- [Data Augmentation](#data-augmentation)
+	- [Federated learning](#federated-learning)
  - [Datasets](#datasets)
  - [Github Repositories](#github-repositories)
 
@@ -255,6 +256,13 @@ Some of papers and the main structure of this repository are inspired by this pa
   - Transformer Networks for Data Augmentation of Human Physical Activity Recognition(Arxiv, 2021)[[**paper**](https://arxiv.org/abs/2109.01081)] [[**code**](https://github.com/sandeep-189/data-augmentation)]
 
 	 - [*backbone: Transformer-based*] [*augmentation tricks: GAN-based*] 
+
+# Federated learning
+
+  - ClusterFL: a similarity-aware federated learning system for human activity recognition(MobiSys, 2021)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3458864.3467681)]
+
+| [back to top](#table-of-contents) |
+| --------------------------------: |
 
 # Datasets
 
