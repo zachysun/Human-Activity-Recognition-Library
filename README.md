@@ -14,7 +14,7 @@
 	- [Class Imbalanced](#class-imbalanced)
 	- [Transfer Learning](#transfer-learning)
 	   - [Distribution Discrepancy](#distribution-discrepancy)
-	   - [Zero/One/Few-Shot Learning](#zero/one/few-shot-learning)
+	   - [Zero/One/Few-Shot Learning](#zeroonefew-shot-learning)
 	- [User Features Privacy](#user-features-privacy)
 	- [Data Augmentation](#data-augmentation)
  - [Datasets](#datasets)
