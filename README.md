@@ -40,7 +40,7 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 #### *Temporal Feature Extraction* 
 
-  - ***Handcraft:***
+  - ***Mainly Handcraft:***
 
   - A-Wristocracy: Deep Learning on Wrist-worn Sensing for Recognition of User Complex  Activities(BSN, 2015)[[**paper**](https://ieeexplore.ieee.org/document/7299406)]
 
@@ -59,9 +59,23 @@ Some of papers and the main structure of this repository are inspired by this pa
 
   - ***Autoencoder-Based:***
 
+  - An ensemble of autonomous auto-encoders for human activity recognition(Neurocomputing, 2021)[[**paper**](https://www.sciencedirect.com/science/article/pii/S0925231221001454)] [[**code**](https://github.com/Keh/EAE)]
 
+	 - [*Ensemble model*]
 
-  - ***End to End(CNN,RNN-Based):***
+  - ***End to End(CNN/RNN-Based):***
+
+  - Deep convolutional neural networks on multichannel time series for human activity recognition(AAAI, 2015)[[**paper**](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/viewFile/10710/11297)]
+
+	 - [*end-to-end deep learning(Temporal CNN)*]
+
+  - Convolutional Neural Networks for Human Activity Recognition using Multiple Accelerometer and Gyroscope Sensors(IJCNN, 2016)[[**paper**](https://ieeexplore.ieee.org/abstract/document/7727224)]
+
+	 - [*modality specific(tricks: zero padding,partial and full weight sharing)*]
+
+  - Human activity recognition from accelerometer data using Convolutional Neural Network(BigComp, 2017)[[**paper**](https://ieeexplore.ieee.org/abstract/document/7881728)]
+
+	 - [*multi-scale 1D-CNN*]
 
   - Towards reading trackers in the wild: detecting reading activities by EOG glasses and deep neural networks(UbiComp, 2017)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3123024.3129271)]
 
@@ -75,29 +89,9 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*end-to-end deep learning(cnn, gru)*] 
 
-  - Making sense of spatio-temporal preserving representations for EEG-based human intention recognition(IEEE Transactions on Cybernetics, 2020)[[**paper**](https://ieeexplore.ieee.org/abstract/document/8698218)]
-
-	 - [*end-to-end deep learning(cnn-lstm-based)*] [*spatio-temporal(EEG signals, EEG electrode map)*] 
-
-  - Deep convolutional neural networks on multichannel time series for human activity recognition(AAAI, 2015)[[**paper**](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/viewFile/10710/11297)]
-
-	 - [*end-to-end deep learning(Temporal CNN)*]
-
   - Deep Neural Network based Human Activity Recognition for the Order Picking Process(iWOAR, 2017)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3134230.3134231)] [[**code**](https://github.com/wilfer9008/CNN_IMU)]
 
 	 - [*end-to-end deep learning(Temporal/1D CNN)*] [*sliding window*] [*IMUs-based fusion and share weights each IMU*]
-
-  - Prototype Similarity Learning for Activity Recognition(PAKDD, 2020)[[**paper**](https://link.springer.com/chapter/10.1007/978-3-030-47426-3_50)]
-
-	 - [*end-to-end deep learning(Temporal/1D CNN, Spatial CNN*] [*Tricks: Distance-Based Classification Module(based on prototypical network), Cross-Subject Training*] 
-
-  - Convolutional Neural Networks for Human Activity Recognition using Multiple Accelerometer and Gyroscope Sensors(IJCNN, 2016)[[**paper**](https://ieeexplore.ieee.org/abstract/document/7727224)]
-
-	 - [*modality specific(tricks: zero padding,partial and full weight sharing)*]
-
-  - Human activity recognition from accelerometer data using Convolutional Neural Network(BigComp, 2017)[[**paper**](https://ieeexplore.ieee.org/abstract/document/7881728)]
-
-	 - [*multi-scale 1D-CNN*]
 
   - Deep dilated convolution on multimodality time series for human activity recognition(IJCNN, 2018)[[**paper**](https://ieeexplore.ieee.org/abstract/document/8489540)]
 
@@ -107,13 +101,25 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*dual-cnn-lstm(one small kernel size, one large)*] [*axis-based Fusion*]
 
+  - Making sense of spatio-temporal preserving representations for EEG-based human intention recognition(IEEE Transactions on Cybernetics, 2020)[[**paper**](https://ieeexplore.ieee.org/abstract/document/8698218)]
+
+	 - [*end-to-end deep learning(cnn-lstm-based)*] [*spatio-temporal(EEG signals, EEG electrode map)*] 
+
+  - Prototype Similarity Learning for Activity Recognition(PAKDD, 2020)[[**paper**](https://link.springer.com/chapter/10.1007/978-3-030-47426-3_50)]
+
+	 - [*end-to-end deep learning(Temporal/1D CNN, Spatial CNN*] [*Tricks: Distance-Based Classification Module(based on prototypical network), Cross-Subject Training*] 
+
   - Push the Limit of Acoustic Gesture Recognition(INFOCOM, 2020)[[**paper**](https://ieeexplore.ieee.org/abstract/document/9229520)]
 
 	 - [*cnn-lstm*] [*acoustic data*] [*frequency transmit*]
 
   - Improving Deep Learning for HAR with shallow LSTMs (ISWC, 2021)[[**paper**](https://dl.acm.org/doi/10.1145/3460421.3480419)] [[**code**](https://github.com/mariusbock/dl-for-har)]
 
-	 - [*primary backbone: DeepConvLSTM*]
+	 - [*backbone: DeepConvLSTM*]
+
+  - Deep Neural Networks for Sensor-Based Human Activity Recognition Using Selective Kernel Convolution(TIM, 2021)[[**paper**](https://ieeexplore.ieee.org/abstract/document/9507456)]
+
+	 - [*novel conv: Selective Kernel Convolution*]
 
   - ***End to End(Transformer-Based):***
 
@@ -141,7 +147,7 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*Early Fusion(1D vector)*] [*stack denoising autoencoder*]
 
-  - Confidence-based Deep Multimodal Fusion for Activity Recognition(UbiComp, 18)[[**paper**](https://dl.acm.org/doi/10.1145/3267305.3267522)]
+  - Confidence-based Deep Multimodal Fusion for Activity Recognition(UbiComp, 2018)[[**paper**](https://dl.acm.org/doi/10.1145/3267305.3267522)]
 
 	 - [*Sensor-based Fusion*] [*tricks: sensors confidence score*]
 
@@ -161,6 +167,10 @@ Some of papers and the main structure of this repository are inspired by this pa
   - SelfHAR: Improving Human Activity Recognition through Self-training with Unlabeled Data(IMWUT, 2021)[[**paper**](https://arxiv.org/abs/2102.06073)] [[**code**](https://github.com/iantangc/SelfHAR)]
 
 	 - [*self-supervised learning*] [*teacher-student*] [*multi-task learning*]
+
+  - Contrastive Predictive Coding for Human Activity Recognition(IMWUT, 2021)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3463506)]
+
+	 - [*encoder*] [*pretext: former predict latter*]
 
   - Self-supervised Learning for Human Activity Recognition Using 700,000 Person-days of Wearable Data(Arxiv, 2022)[[**paper**](https://arxiv.org/abs/2206.02909)] [[**code**](https://github.com/OxWearables/ssl-wearables)]
 
@@ -211,6 +221,10 @@ Some of papers and the main structure of this repository are inspired by this pa
 #### *Distribution Discrepancy*
 
   - ***Cross person:***
+
+  - Cross-subject transfer learning in human activity recognition systems using generative adversarial networks(Neurocomputing, 2021)[[**paper**](https://www.sciencedirect.com/science/article/abs/pii/S0925231220316313)]
+
+	 - [*GAN*] [*Semi-supervised learning*]
 
   - Latent Independent Excitation for Generalizable Sensor-based Cross-Person Activity Recognition(AAAI, 2021)[[**paper**](https://ojs.aaai.org/index.php/AAAI/article/view/17416)]
 
