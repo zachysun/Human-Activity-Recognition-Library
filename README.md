@@ -1,69 +1,92 @@
+Please feel free to contribute.
+
+[*which type of data*] [*what to recognize*] [*which type of problem*] [*how to process raw data*] [*how to solve problem*] [*tricks*] [*dataset*] 
+
 # Table of Contents
 
  - [Table of Contents](#table-of-contents)
- - [Reference Survey Paper](#reference-survey-paper)
- - [Other Survey Paper](#other-survey-paper)
- - [Challenges and Techniques](#challenges-and-techniques)
+ - [Survey Paper](#survey-paper)
+ - [Datasets](#datasets)
+ - [Github Repositories](#github-repositories)
+ - [Categorized by Challenges(Mainly:IMUs-based)](#categorized-by-challenges)
     - [Feature Extraction](#feature-extraction)
-	   - [Temporal Feature Extraction](#temporal-feature-extraction)
-	   - [Multimodal Feature Extraction](#multimodal-feature-extraction)
     - [Weakly Annotation](#weakly-annotation)
 	   - [Self-supervised learning](#self-supervised-learning)
 	   - [Semi-supervised learning](#semi-supervised-learning)
 	   - [Unsupervised learning](#unsupervised-learning)
 	- [Class Imbalanced](#class-imbalanced)
 	- [Transfer Learning](#transfer-learning)
-	   - [Distribution Discrepancy](#distribution-discrepancy)
+	   - [Domain Adaptation](#domain-adaptation)
 	   - [Zero/One/Few-Shot Learning](#zeroonefew-shot-learning)
 	- [User Features Privacy](#user-features-privacy)
 	- [Data Augmentation](#data-augmentation)
 	- [Federated learning](#federated-learning)
- - [Datasets](#datasets)
- - [Github Repositories](#github-repositories)
+ - [Categorized by Modalities](#categorized-by-modalities)
+	- [Video/Image-based](#videoimage-based)
+	- [WiFi-based](#wifi-based)
+	- [Smartphone-based](#smartphone-based)
+	- [Others](#others)
 
-# Reference Survey Paper
-:star: **Deep Learning for Sensor-based Human Activity Recognition: Overview, Challenges and Opportunities (ACM Computing Surveys, 2021)** [[**paper**](https://arxiv.org/pdf/2001.07416.pdf)]
+#  Survey Paper
 
-Some of papers and the main structure of this repository are inspired by this paper!!
+  - Unsupervised Human Activity Recognition Using the Clustering Approach: A Review(Sensors, 2020)[[**paper**](https://europepmc.org/article/pmc/pmc7249206)]
 
-# Other Survey Paper
-
-  - A Survey on Deep Learning for Human Activity Recognition(ACM Computing Surveys, 2022)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3472290)]
-
-  - Multi-sensor information fusion based on machine learning for real applications in human activity recognition: State-of-the-art and research challenges(Information Fusion, 2022)[[**paper**](https://www.sciencedirect.com/science/article/abs/pii/S1566253521002311)]
+  - :star: Deep Learning for Sensor-based Human Activity Recognition: Overview, Challenges and Opportunities (ACM Computing Surveys, 2021) [[**paper**](https://arxiv.org/pdf/2001.07416.pdf)]
 
   - Deep Learning in Human Activity Recognition with Wearable Sensors: A Review on Advances(Sensors, 2022)[[**paper**](https://www.mdpi.com/1424-8220/22/4/1476)]
 
-# Challenges and Techniques
+  - A survey on unsupervised learning for wearable sensor-based activity recognition(Applied Soft Computing, 2022)[[**paper**](https://www.sciencedirect.com/science/article/pii/S1568494622005191)]
+
+  - Multi-sensor information fusion based on machine learning for real applications in human activity recognition: State-of-the-art and research challenges(Information Fusion, 2022)[[**paper**](https://www.sciencedirect.com/science/article/abs/pii/S1566253521002311)]
+
+  - A Survey on Deep Learning for Human Activity Recognition(ACM Computing Surveys, 2022)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3472290)]
+
+  - Human Action Recognition from Various Data Modalities: A Review(TPAMI, 2022)[[**paper**](https://ieeexplore.ieee.org/abstract/document/9795869/)]
+
+# Datasets
+
+| Index |    Name     | Overview |                             Link                             |
+| :---: | :---------: | :------: | :----------------------------------------------------------: |
+|   1   | Opportunity |          | [[link](https://archive.ics.uci.edu/ml/datasets/opportunity+activity+recognition#:~:text=Data%20Set%20Information%3A-,The%20OPPORTUNITY%20Dataset%20for%20Human%20Activity%20Recognition%20from%20Wearable%2C%20Object,%2C%20feature%20extraction%2C%20etc)] |
+|   2   |   UCI HAR   |          | [[link](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)] |
+|   3   | MotionSense |          |    [[link](https://github.com/mmalekzadeh/motion-sense)]     |
+|   4   |   PAMPA2    |          | [[link](https://archive.ics.uci.edu/ml/datasets/pamap2+physical+activity+monitoring)] |
+|   5   |     USC     |          |             [[link](https://sipi.usc.edu/had/)]              |
+|   6   |     SHO     |          | [[link](https://www.utwente.nl/en/eemcs/ps/research/dataset/)] |
+
+# Github Repositories
+
+  - Awesome-Human-Activity-Recognition(own by haoranD)[[link](https://github.com/haoranD/Awesome-Human-Activity-Recognition)]
+  - Awesome_Human_Activity_Recognition(own by jie-su)[[link](https://github.com/Jie-su/Awesome_Human_Activity_Recognition)]
+  - LSTM-Human-Activity-Recognition(own by guillaume-chevalier)[[link](https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition)]
+  - activityrecognition(own by jindongwang)[[link](https://github.com/jindongwang/activityrecognition)]
+  - Human-Activity-Recognition-using-CNN(own by aqibsaeed)[[link](https://github.com/aqibsaeed/Human-Activity-Recognition-using-CNN)]
+
+| [back to top](#table-of-contents) |
+| --------------------------------: |
+
+# Categorized by Challenges
 
 ### Feature Extraction
 
-#### *Temporal Feature Extraction* 
-
-  - ***Mainly Handcraft:***
-
   - A-Wristocracy: Deep Learning on Wrist-worn Sensing for Recognition of User Complex  Activities(BSN, 2015)[[**paper**](https://ieeexplore.ieee.org/document/7299406)]
 
-    - [*deep learning(mlp-based)*] [*mean, variance*] [*fine-gained*] [*wrist-worn*] [*multi-sensors*]
+    - [*wrist-worn device(IMUs,RSSI,...)*] [*inhome activities,contextual activities*] [*supervised fine-gained classification*] [*sliding window*] [*MLP-based*] [*-*] [*-*]
 
   - Human Activity Recognition using Wearable Sensors by Deep Convolutional Neural Networks(ACM MM, 2015)[[**paper**](https://dl.acm.org/doi/abs/10.1145/2733373.2806333)]
-	- [*deep learning(cnn-based)*] [*novel activity image(stack, 2D DFT)*] [*multi-sensors*]
+	- [*IMUs*] [*normal activities*] [*supervised classification*] [*stack,DFT*] [*CNN-based*] [*to image(activity image)*] [*dataset [2](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones), [5](https://sipi.usc.edu/had/), [6](https://www.utwente.nl/en/eemcs/ps/research/dataset/)*]
 
   - TagFree Activity Identification with RFIDs(IMWUT, 2018)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3191739)]
 
-	 - [*deep learning(cnn-lstm-based)*] [*RFID signals*] [spectrum(with time-angle)]
+	 - [*RFID-based device-free*] [*normal activities*] [*supervised fine-gained classification*] [*phase calibration,multipath de-coupling*] [*CNN-LSTM-based*] [*to image(spectrum frame)*] [*-*]
 
-  - Sensing Fine-Grained Hand Activity with Smartwatches(CHI, 2019)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3290605.3300568)]
+  - Sensing Fine-Grained Hand Activity with Smartwatches(CHI, 2019)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3290605.3300568)] [[**code**](https://github.com/FIGLAB/hand-activities)]
 
-	- [*deep learning(cnn-based)*]  [*time frequency spectral(FFT)*] [*fine-gained*]
-
-  - ***Autoencoder-Based:***
+  - [*smartwatches(IMUs)*] [*hand activities*] [*supervised fine-gained classification*] [*FFT*] [*CNN-based*] [*to image(spectrum)*] [*dataset: same link as code*]
 
   - An ensemble of autonomous auto-encoders for human activity recognition(Neurocomputing, 2021)[[**paper**](https://www.sciencedirect.com/science/article/pii/S0925231221001454)] [[**code**](https://github.com/Keh/EAE)]
 
 	 - [*Ensemble model*]
-
-  - ***End to End(CNN/RNN-Based):***
 
   - Deep convolutional neural networks on multichannel time series for human activity recognition(AAAI, 2015)[[**paper**](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/viewFile/10710/11297)]
 
@@ -121,19 +144,13 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*novel conv: Selective Kernel Convolution*]
 
-  - ***End to End(Transformer-Based):***
-
-  - IF-ConvTransformer: A Framework for Human Activity Recognition Using IMU Fusion and ConvTransformer(Ubicomp, 2022)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3534584)]
-
-	 - [*transformer-based(ConvTransformer)*] [*novel IMU fusion*]
-
   - Transformer Networks for Data Augmentation of Human Physical Activity Recognition(Arxiv, 2021)[[**paper**](https://arxiv.org/abs/2109.01081)] [[**code**](https://github.com/sandeep-189/data-augmentation)]
 
 	 - [*backbone: Transformer-based*] [*augmentation tricks: GAN-based*] 
 
-#### *Multimodal Feature Extraction*
+  - IF-ConvTransformer: A Framework for Human Activity Recognition Using IMU Fusion and ConvTransformer(Ubicomp, 2022)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3534584)]
 
-  - ***Feature Fusion:***
+	 - [*transformer-based(ConvTransformer)*] [*novel IMU fusion*]
 
   - Multi-modal convolutional neural networks for activity recognition(TMC, 2015)[[**paper**](https://ieeexplore.ieee.org/abstract/document/7379657)]
 
@@ -150,8 +167,6 @@ Some of papers and the main structure of this repository are inspired by this pa
   - Confidence-based Deep Multimodal Fusion for Activity Recognition(UbiComp, 2018)[[**paper**](https://dl.acm.org/doi/10.1145/3267305.3267522)]
 
 	 - [*Sensor-based Fusion*] [*tricks: sensors confidence score*]
-
-  - ***Classifier Ensemble:***
 
 | [back to top](#table-of-contents) |
 | --------------------------------: |
@@ -196,14 +211,6 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 #### *Unsupervised learning*
 
-  - Unsupervised Human Activity Recognition Using the Clustering Approach: A Review(Sensors, 2020)[[**paper**](https://europepmc.org/article/pmc/pmc7249206)]
-
-	 - [*Survey*]
-
-  - A survey on unsupervised learning for wearable sensor-based activity recognition(Applied Soft Computing, 2022)[[**paper**](https://www.sciencedirect.com/science/article/pii/S1568494622005191)]
-
-	 - [*Survey*]
-
   - Towards deep clustering of human activities from wearables(ISWC, 2020)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3410531.3414312)]
 
 	 - [*Deep Clustering*] [*for pretrain: multi-task autoencoder*] [*for clustering: single layer network, cluster assignment hardening*]
@@ -218,7 +225,7 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 ### Transfer Learning
 
-#### *Distribution Discrepancy*
+#### *Domain Adaptation*
 
   - ***Cross person:***
 
@@ -271,30 +278,40 @@ Some of papers and the main structure of this repository are inspired by this pa
 
 	 - [*backbone: Transformer-based*] [*augmentation tricks: GAN-based*] 
 
-# Federated learning
+### Federated learning
 
   - ClusterFL: a similarity-aware federated learning system for human activity recognition(MobiSys, 2021)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3458864.3467681)]
 
 | [back to top](#table-of-contents) |
 | --------------------------------: |
 
-# Datasets
+# Categorized by Modalities
 
-  - Opportunity[[link](https://archive.ics.uci.edu/ml/datasets/opportunity+activity+recognition#:~:text=Data%20Set%20Information%3A-,The%20OPPORTUNITY%20Dataset%20for%20Human%20Activity%20Recognition%20from%20Wearable%2C%20Object,%2C%20feature%20extraction%2C%20etc)]
-  - UCI HAR[[link](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones)]
-  - MotionSense[[link](https://github.com/mmalekzadeh/motion-sense)]
-  - PAMPA2[[link](https://archive.ics.uci.edu/ml/datasets/pamap2+physical+activity+monitoring)]
+### Video/Image-based
 
-| [back to top](#table-of-contents) |
-| --------------------------------: |
 
-# Github Repositories
+### WiFi-based
 
- - Awesome-Human-Activity-Recognition(own by haoranD)[[link](https://github.com/haoranD/Awesome-Human-Activity-Recognition)]
- - Awesome_Human_Activity_Recognition(own by jie-su)[[link](https://github.com/Jie-su/Awesome_Human_Activity_Recognition)]
- - LSTM-Human-Activity-Recognition(own by guillaume-chevalier)[[link](https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition)]
- - activityrecognition(own by jindongwang)[[link](https://github.com/jindongwang/activityrecognition)]
- - Human-Activity-Recognition-using-CNN(own by aqibsaeed)[[link](https://github.com/aqibsaeed/Human-Activity-Recognition-using-CNN)]
+
+### Smartphone-based
+
+  - ReflecTouch: Detecting Grasp Posture of Smartphone Using Corneal Reflection Images(CHI, 2022)[[**paper**](https://dl.acm.org/doi/10.1145/3491102.3517440)]
+
+	 - [*Use: smartphone only(camera)*] [*For: grasp posture detecting*] [*CNN*] [*transfer learning*] 
+
+  - VoLearn: A Cross-Modal Operable Motion-Learning System Combined with Virtual Avatar and Auditory Feedback(IMWUT, 2022)[[**paper**](https://dl.acm.org/doi/10.1145/3534576)]
+
+	 - [*Use: smartphones*] [*For: motion learning system*]
+
+### Others
+
+  - Innovation Human Motion Sensing With Earbuds(MobiSys, 2021)[[**paper**](https://dl.acm.org/doi/10.1145/3458864.3467680)]
+
+	 - [*Use: Earbuds(accelerometers, microphones)*] [*For: step counting,  human activity recognition, face-tapping gesture interaction*] [*LR, SVM*] [*DSP: filter, MFCC, STFT*]
+
+  - Recognizing Hand Gestures using Solar Cells(TMC, 2022)[[**paper**](https://ieeexplore.ieee.org/abstract/document/9705168)]
+
+	 - [*Use: solar cells*] [*For: hand gestures recognize*]
 
 | [back to top](#table-of-contents) |
 | --------------------------------: |
