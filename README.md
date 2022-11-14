@@ -86,7 +86,7 @@ Please feel free to contribute.
 
   - An ensemble of autonomous auto-encoders for human activity recognition(Neurocomputing, 2021)[[**paper**](https://www.sciencedirect.com/science/article/pii/S0925231221001454)] [[**code**](https://github.com/Keh/EAE)]
 
-	 - [*Ensemble model*]
+	 - [*IMUs*]
 
   - Deep convolutional neural networks on multichannel time series for human activity recognition(AAAI, 2015)[[**paper**](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/viewFile/10710/11297)]
 
