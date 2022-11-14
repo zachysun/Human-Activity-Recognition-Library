@@ -82,7 +82,7 @@ Please feel free to contribute.
 
   - Sensing Fine-Grained Hand Activity with Smartwatches(CHI, 2019)[[**paper**](https://dl.acm.org/doi/abs/10.1145/3290605.3300568)] [[**code**](https://github.com/FIGLAB/hand-activities)]
 
-  - [*smartwatches(IMUs)*] [*hand activities*] [*supervised fine-gained classification*] [*FFT*] [*CNN-based*] [*to image(spectrum)*] [*dataset: same link as code*]
+	 - [*smartwatches(IMUs)*] [*hand activities*] [*supervised fine-gained classification*] [*FFT*] [*CNN-based*] [*to image(spectrum)*] [*dataset: same link as code*]
 
   - An ensemble of autonomous auto-encoders for human activity recognition(Neurocomputing, 2021)[[**paper**](https://www.sciencedirect.com/science/article/pii/S0925231221001454)] [[**code**](https://github.com/Keh/EAE)]
 
